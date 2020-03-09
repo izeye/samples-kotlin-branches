@@ -12,10 +12,11 @@ fun main() {
     println("value1 is $reifiedValue2")
 }
 
-inline fun <T> printType(value: Any): T {
+fun <T> printType(value: Any): T {
 //    println("$value is " + T::class)
     println("$value is " + value::class.java)
     println("$value is " + value.javaClass)
+    @Suppress("UNCHECKED_CAST")
     return value as T
 }
 
