@@ -18,6 +18,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation(kotlin("reflect"))
+    implementation("ch.qos.logback:logback-classic:latest.release")
 }
 
 tasks.wrapper {
