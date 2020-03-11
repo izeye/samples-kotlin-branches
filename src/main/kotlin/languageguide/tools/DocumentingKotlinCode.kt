@@ -14,7 +14,7 @@ class Group<T>(val name: String) {
      * Adds a [member] to this group.
      * @return the new size of the group.
      */
-    fun add(member: T): Int = TODO("Not implemented yet!")
+    fun add(member: T): Int = TODO("Not implemented yet! I'm just referencing $member here to suppress a compile warning.")
 }
 
 /**
