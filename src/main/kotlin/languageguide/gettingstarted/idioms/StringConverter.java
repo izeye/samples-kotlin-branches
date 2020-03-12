@@ -11,8 +11,7 @@ public class StringConverter {
             field.setAccessible(true);
             field.set(t, value);
             return t;
-        }
-        catch (InstantiationException | IllegalAccessException | NoSuchFieldException ex) {
+        } catch (InstantiationException | IllegalAccessException | NoSuchFieldException ex) {
             throw new RuntimeException(ex);
         }
     }

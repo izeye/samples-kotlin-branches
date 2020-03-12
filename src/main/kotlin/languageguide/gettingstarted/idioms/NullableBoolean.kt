@@ -4,8 +4,7 @@ fun main() {
     val b: Boolean? = null
     if (b == true) {
         println("b is true: $b")
-    }
-    else {
+    } else {
         println("b is not true: $b")
     }
 }

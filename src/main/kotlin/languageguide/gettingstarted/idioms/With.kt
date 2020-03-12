@@ -8,4 +8,4 @@ fun main() {
     }
 }
 
-class WithPerson (val firstName: String, val lastName: String)
+class WithPerson(val firstName: String, val lastName: String)

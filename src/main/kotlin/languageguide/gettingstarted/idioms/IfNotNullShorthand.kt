@@ -11,4 +11,4 @@ fun main() {
     println(person2?.lastName ?: "Unknown")
 }
 
-data class Person (val firstName: String, val lastName: String)
+data class Person(val firstName: String, val lastName: String)

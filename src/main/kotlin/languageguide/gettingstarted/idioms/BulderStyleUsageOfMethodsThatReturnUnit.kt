@@ -5,6 +5,6 @@ fun main() {
     array.forEach { println(it) }
 }
 
-private fun arrayOfMinusOne(size :Int): IntArray {
+private fun arrayOfMinusOne(size: Int): IntArray {
     return IntArray(size).apply { fill(-1) }
 }

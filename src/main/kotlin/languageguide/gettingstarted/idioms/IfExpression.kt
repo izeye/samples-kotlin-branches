@@ -11,11 +11,9 @@ fun toString(number: Int): String {
     // Note: IntelliJ suggests replacing this with 'when'.
     return if (number == 1) {
         "one"
-    }
-    else if (number == 2) {
+    } else if (number == 2) {
         "two"
-    }
-    else {
+    } else {
         "three"
     }
 }

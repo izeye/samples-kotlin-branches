@@ -14,8 +14,7 @@ fun main() {
 fun parseInt(str: String): Int? {
     return try {
         str.toInt()
-    }
-    catch (ex: NumberFormatException) {
+    } catch (ex: NumberFormatException) {
         return null;
     }
 }
@@ -26,8 +25,7 @@ fun printProduct(arg1: String, arg2: String) {
 
     if (x != null && y != null) {
         println(x * y)
-    }
-    else {
+    } else {
         println("'$arg1' or '$arg2' is not a number")
     }
 }

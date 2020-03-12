@@ -1,7 +1,6 @@
 package junit.flaky
 
 import org.junit.jupiter.api.Test
-import java.lang.RuntimeException
 import kotlin.random.Random
 
 /**

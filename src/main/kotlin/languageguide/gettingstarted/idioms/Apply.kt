@@ -5,6 +5,6 @@ fun main() {
     println("${person.firstName} ${person.lastName} is ${person.age} years old.")
 }
 
-class ApplyPerson (val firstName: String, val lastName: String) {
+class ApplyPerson(val firstName: String, val lastName: String) {
     var age: Int? = null
 }

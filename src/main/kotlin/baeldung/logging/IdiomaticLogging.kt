@@ -28,10 +28,13 @@ class Property {
 class LoggerInCompanionObject {
     companion object {
         private val log = getLogger(LoggerInCompanionObject::class.java)
+
         @Suppress("JAVA_CLASS_ON_COMPANION")
         private val companionLog = getLogger(javaClass)
+
         @Suppress("JAVA_CLASS_ON_COMPANION")
         private val enclosingLog = getLogger(javaClass.enclosingClass)
+
         @Suppress("JAVA_CLASS_ON_COMPANION")
         private val jvmStaticLog = getLogger(javaClass.enclosingClass)
     }

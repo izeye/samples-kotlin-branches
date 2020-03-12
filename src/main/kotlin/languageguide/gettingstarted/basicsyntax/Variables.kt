@@ -8,7 +8,7 @@ fun main() {
     println(a)
     println(b)
 
-    c=3
+    c = 3
     println(c)
 
     var x = 5

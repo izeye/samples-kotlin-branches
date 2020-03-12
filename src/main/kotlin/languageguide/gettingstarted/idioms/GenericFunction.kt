@@ -1,6 +1,6 @@
 package languageguide.gettingstarted.idioms
 
-inline fun <reified T: Any> StringConverter.fromString(value: String): T = this.fromString(value, T::class.java)
+inline fun <reified T : Any> StringConverter.fromString(value: String): T = this.fromString(value, T::class.java)
 
 fun main() {
     val stringConverter = StringConverter()

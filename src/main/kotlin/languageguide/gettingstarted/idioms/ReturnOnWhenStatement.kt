@@ -1,7 +1,5 @@
 package languageguide.gettingstarted.idioms
 
-import java.lang.IllegalArgumentException
-
 fun main() {
     println(transform("Red"))
     println(transform("Green"))
@@ -10,7 +8,7 @@ fun main() {
 }
 
 fun transform(color: String): Int {
-    return when(color) {
+    return when (color) {
         "Red" -> 0
         "Green" -> 1
         "Blue" -> 2

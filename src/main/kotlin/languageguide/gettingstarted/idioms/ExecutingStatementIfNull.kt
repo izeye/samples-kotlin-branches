@@ -1,7 +1,5 @@
 package languageguide.gettingstarted.idioms
 
-import java.lang.IllegalStateException
-
 fun main() {
     val map = mapOf("firstName" to "Johnny", "lastName" to "Lim")
 

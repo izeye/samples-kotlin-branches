@@ -16,7 +16,8 @@ fun <T : Logging> T.markerLogger(): Logger = getLogger(javaClass)
 inline fun <reified T : Logging> T.reifiedLogger(): Logger = getLogger(T::class.java)
 
 // 'inline' has been removed due to a compile warning.
-fun <T : Any> getClassForLogging(javaClass: Class<T>): Class<*> = javaClass.enclosingClass?.takeIf { !it.kotlin.isCompanion } ?: javaClass
+fun <T : Any> getClassForLogging(javaClass: Class<T>): Class<*> =
+    javaClass.enclosingClass?.takeIf { !it.kotlin.isCompanion } ?: javaClass
 
 inline fun <reified T : Logging> T.companionCompatibleLogger(): Logger = getLogger(getClassForLogging(T::class.java))
 

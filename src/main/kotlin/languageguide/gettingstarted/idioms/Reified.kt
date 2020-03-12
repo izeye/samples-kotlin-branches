@@ -20,7 +20,7 @@ fun <T> printType(value: Any): T {
     return value as T
 }
 
-inline fun <reified  T> printTypeReified(value: Any): T {
+inline fun <reified T> printTypeReified(value: Any): T {
     println("$value is " + T::class)
     println("$value is " + value::class.java)
     println("$value is " + value.javaClass)

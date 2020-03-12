@@ -8,8 +8,7 @@ fun main() {
 fun maxOf(a: Int, b: Int): Int {
     if (a > b) {
         return a
-    }
-    else {
+    } else {
         return b
     }
 }
